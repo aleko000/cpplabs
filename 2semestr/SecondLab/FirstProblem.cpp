@@ -27,8 +27,8 @@ class Difference {
 
 int main()
 {
-    int number_one; cin >> number_one;
-    int number_two; cin >> number_two;
+    int number_one; std::cin >> number_one;
+    int number_two; std::cin >> number_two;
 Difference* problem = new Difference(number_one, number_two); // инициализация, вывод
 problem -> console();
     return 0;
