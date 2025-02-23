@@ -27,7 +27,9 @@ class Difference {
 
 int main()
 {
-Difference* problem = new Difference(5, 10); // инициализация, вывод
+    int number_one; cin >> number_one;
+    int number_two; cin >> number_two;
+Difference* problem = new Difference(number_one, number_two); // инициализация, вывод
 problem -> console();
     return 0;
 };
