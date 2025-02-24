@@ -54,6 +54,7 @@ int main()
     book -> average_price();
     book -> price_increase();
     book -> console();
+    delete book;
 
     return 0;
 };
