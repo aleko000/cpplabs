@@ -38,6 +38,7 @@ int main()
         }       
         
     }
+    in.close();
 
     std::cout << "The number of positive digits: " << positive_number << std::endl;
     std::cout << "The multiply: " << umnog << std::endl;
